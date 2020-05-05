@@ -6,6 +6,7 @@ pipeline {
         }
     }
     environment {
+        //testing the git commit triggers
         CI = 'true'
     }
 
