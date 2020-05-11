@@ -8,6 +8,7 @@ pipeline {
     environment {
         //testing the git commit triggers 3
         CI = 'true'
+        HOME = '.'
     }
 
     stages {
